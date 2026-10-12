@@ -1,6 +1,6 @@
 # Gerador de Contratos (Locação e Venda) – RE/MAX Litorânea
 
-Sistema web de arquivo único (`gerador-contrato-locacao.html`) que gera, em formato **Word (.docx)** e a partir de um formulário, dois tipos de contrato: **ALUGUEL** (Contrato de Locação de Imóvel Residencial) e **VENDA** (Contrato de Compra e Venda, inclusive com financiamento, e Promessa de Cessão de Direitos Hereditários c/c Compra e Venda). O Word gerado reproduz o modelo original da imobiliária (cabeçalho com logos, numeração de cláusulas, formatação e rodapé), com os dados de cada contrato preenchidos.
+Sistema web de arquivo único (`index.html`) que gera, em formato **Word (.docx)** e a partir de um formulário, dois tipos de contrato: **ALUGUEL** (Contrato de Locação de Imóvel Residencial) e **VENDA** (Contrato de Compra e Venda, inclusive com financiamento, e Promessa de Cessão de Direitos Hereditários c/c Compra e Venda). O Word gerado reproduz o modelo original da imobiliária (cabeçalho com logos, numeração de cláusulas, formatação e rodapé), com os dados de cada contrato preenchidos.
 
 O visual segue as cores da RE/MAX (vermelho `#DC1C2E` e azul `#003DA5`).
 
@@ -20,7 +20,7 @@ O visual segue as cores da RE/MAX (vermelho `#DC1C2E` e azul `#003DA5`).
 
 ## Como usar
 
-1. Abra o arquivo `gerador-contrato-locacao.html` no navegador.
+1. Abra o arquivo `index.html` no navegador.
 2. No topo, escolha o **tipo de contrato** (campo “Selecione um tipo de contrato”): **ALUGUEL** ou **VENDA**. Até a escolha, nada mais é exibido. As seções descritas daqui até “Importar contrato existente” são as do ALUGUEL; a VENDA está descrita na seção “Contrato de VENDA”.
 3. Todas as seções começam **recolhidas**. Clique no título para abrir, ou use **Expandir tudo** / **Recolher tudo** no topo.
 4. Preencha as seções (campos marcados com `*` são obrigatórios).
